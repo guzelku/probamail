@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button class="button   consult"> заказать</button>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal_close">&times;</div>
+            <div class="modal_subtitle">Заполоните форму</div>
+            <div class="modal_description"> и мы презвоним Вам</div>
+            <form action="#" class="feed-form" id=consultation-form>
+                <input type="text" name="name" placeholder="Ваше имя" id="" required>
+                <input  name="phone" placeholder="Ваш телефон" id="" required>
+                <input type="email" name="email" placeholder="Ваша эл.почта" id="" required>
+
+                <button class="button  button_submit" > заказать консультацию</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="jquery.validate.min.js"></script>
+<script src="jquery.maskedinput.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
